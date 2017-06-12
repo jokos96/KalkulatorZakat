@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pmobile.kalkulatorzakat.Profesi">
+
+    <ScrollView
+        android:layout_width="337dp"
+        android:layout_height="299dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHeaderprofesi"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBeras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga Beras (kg)"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtHarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Harga beras di pasaran (Rp)"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtJpenghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penghasilan"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtPenghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Total penghasilan perbulan (Rp)"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/txtJhutang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hutang"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtThutang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*isikan 0 jika tidak memiliki hutang"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <EditText
+                android:id="@+id/txtHutang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hutang yang harus di lunasi"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtHasil"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnHitung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hitung" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imgHeaderprofesi"
+        android:layout_width="387dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profesi3"
+        app:layout_constraintHorizontal_bias="0.466"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+</android.support.constraint.ConstraintLayout>
