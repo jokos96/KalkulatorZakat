@@ -1,6 +1,6 @@
 # KalkulatorZakat
-Tugas UAS Pemrograman Mobile
-Anggota Kelompok :
-Cahyono Joko S        14.11.7681
-Mustofa Galih Pradana 14.11.7689
-Mufti Arif Hidayat    14.11.7701
+Tugas UAS Pemrograman Mobile <br>
+Anggota Kelompok : <br>
+Cahyono Joko S        (14.11.7681) <br>
+Mustofa Galih Pradana (14.11.7689) <br>
+Mufti Arif Hidayat    (14.11.7701)
